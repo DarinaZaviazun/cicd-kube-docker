@@ -4,12 +4,11 @@ pipeline {
     tools {
 
         maven "MAVEN3"
-
         jdk "OracleJDK8"
 
     }
     environment{
-        registry = "darinazaviazun/vproappdock"
+        registry = "imranvisualpath/vproappdock"
         registryCredential = "dockerhub"
     }
 
